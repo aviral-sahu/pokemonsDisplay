@@ -1,0 +1,60 @@
+.outer-container {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.pokemon-list {
+  background-color: white;
+  padding-left: 12px;
+  height: 50px;
+  background-color: rgb(191, 221, 250);
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer {
+  height: 45px;
+  background-color: rgb(0, 132, 255);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header {
+  height: 45px;
+  background-color: rgb(0, 132, 255);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  width: 70%;
+  text-align: center;
+  border-radius: 19px;
+  margin: 3px;
+  font-size: 1.4rem;
+}
+
+.footer button {
+  width: 100px;
+  height: 30px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 20px;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+
+.App {
+  background-color: black;
+  padding: 10px;
+}
